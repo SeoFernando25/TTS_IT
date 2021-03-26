@@ -1,12 +1,12 @@
 # TTS-IT
 
-A **WINDOWS ONLY** shell that plays [AWS Polly]([https://link](https://aws.amazon.com/polly/))/[StreamLabs]([https://link](https://blog.streamlabs.com/how-to-add-text-to-speech-to-donations-to-your-stream-548e9908b451)) text-to-speech on [Soundpad]([https://link](https://leppsoft.com/soundpad/en/))
+A **WINDOWS ONLY** shell that plays [AWS Polly](https://aws.amazon.com/polly/)/[StreamLabs](https://blog.streamlabs.com/how-to-add-text-to-speech-to-donations-to-your-stream-548e9908b451) text-to-speech on [Soundpad](https://leppsoft.com/soundpad/en/)
 
 ## Requirements
 
-- [Soundpad]([https://link](https://leppsoft.com/soundpad/en/)) (Either steam version or DRM-Free should)
+- [Soundpad](https://leppsoft.com/soundpad/en/) (Either steam version or DRM-Free should)
 - An amazon AWS account
-- [Python 3]([https://link](https://www.python.org/downloads/))
+- [Python 3](https://www.python.org/downloads/)
 
 ## How to use
 
@@ -19,7 +19,7 @@ A **WINDOWS ONLY** shell that plays [AWS Polly]([https://link](https://aws.amazo
   AccessKeyId = MY_AWS_ACCESS_KEY
   SecretKey = MY_AWS_SECRET_KEY
   ```
-  if you don't have an AWS access key you can get one by [clicking this link]([https://link](https://console.aws.amazon.com/iam/home?#/security_credentials)) and creating a new key
+  if you don't have AWS credentials you can get one by [clicking this link](https://console.aws.amazon.com/iam/home?#/security_credentials) and creating a new key
   ![Security Credentials Page](security_credentials_page.png)
 - `py main.py credentials.ini`
 
