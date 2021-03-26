@@ -1,0 +1,8 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# cache folder
+lines
+
+# private keys
+cfg.ini
