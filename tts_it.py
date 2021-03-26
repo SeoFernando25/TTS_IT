@@ -59,17 +59,9 @@ class ClientShell(cmd.Cmd):
     def emptyline(self):
          pass
 
-    def close(self):
-        if self.file:
-            self.file.close()
-            self.file = None
-
-def parse(arg):
-    'Convert a series of zero or more numbers to an argument tuple'
-    return tuple(arg.split())
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='A simple command line text to speech program that uses AWS Polly and SoundPad')
+    parser = argparse.ArgumentParser(description='A simple shell that uses Amazon Polly and SoundPad')
     parser.add_argument('config', help='The configuration file')
 
     args = parser.parse_args()
