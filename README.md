@@ -1,6 +1,6 @@
 # TTS-IT
 
-A **WINDOWS ONLY** interpreter that plays [AWS Polly]([https://link](https://aws.amazon.com/polly/))/[StreamLabs]([https://link](https://blog.streamlabs.com/how-to-add-text-to-speech-to-donations-to-your-stream-548e9908b451)) text-to-speech on [Soundpad]([https://link](https://leppsoft.com/soundpad/en/))
+A **WINDOWS ONLY** shell that plays [AWS Polly]([https://link](https://aws.amazon.com/polly/))/[StreamLabs]([https://link](https://blog.streamlabs.com/how-to-add-text-to-speech-to-donations-to-your-stream-548e9908b451)) text-to-speech on [Soundpad]([https://link](https://leppsoft.com/soundpad/en/))
 
 ## Requirements
 
