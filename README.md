@@ -19,8 +19,8 @@ A **WINDOWS ONLY** shell that plays [AWS Polly](https://aws.amazon.com/polly/)/[
   AccessKeyId = MY_AWS_ACCESS_KEY
   SecretKey = MY_AWS_SECRET_KEY
   ```
-  if you don't have AWS credentials you can get one by [clicking this link](https://console.aws.amazon.com/iam/home?#/security_credentials) and creating a new key
-  ![Security Credentials Page](security_credentials_page.png)
+
+  if you don't have AWS credentials you can get one by [clicking this link](https://console.aws.amazon.com/iam/home?#/security_credentials) and creating a new key in the `Access keys` tab
 - `py main.py credentials.ini`
 
 ## Commands
@@ -38,4 +38,3 @@ A **WINDOWS ONLY** shell that plays [AWS Polly](https://aws.amazon.com/polly/)/[
 - `set {arg}`
   - Sets the voice to closes match
   - If no argument is provided load the first voice in voices.json
-
