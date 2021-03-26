@@ -7,12 +7,12 @@ A **WINDOWS ONLY** shell that plays [AWS Polly](https://aws.amazon.com/polly/)/[
 - [Soundpad](https://leppsoft.com/soundpad/en/) (Either steam version or DRM-Free should)
 - An amazon AWS account
 - [Python 3](https://www.python.org/downloads/)
+- `pip install boto3`
 
 ## How to use
 
-- Download the repo
-- `pip install boto3`
-- Create an .ini file in the following format (preferably in the same folder)
+- Download the repository
+- Create a file named `credentials.ini` in the same folder and paste the following replacing `MY_AWS_ACCESS_KEY` by your AWS Access key and `MY_AWS_SECRET_KEY` by your secret   
 
   ```ini
   [Credentials]
@@ -20,8 +20,9 @@ A **WINDOWS ONLY** shell that plays [AWS Polly](https://aws.amazon.com/polly/)/[
   SecretKey = MY_AWS_SECRET_KEY
   ```
 
-  if you don't have AWS credentials you can get one by [clicking this link](https://console.aws.amazon.com/iam/home?#/security_credentials) and creating a new key in the `Access keys` tab
-- `py main.py credentials.ini`
+  if you don't already have AWS credentials you can get one by [clicking this link](https://console.aws.amazon.com/iam/home?#/security_credentials) and creating a new one in the `Access keys` tab
+- Open SoundPad
+- Run `py tts_it.py credentials.ini`
 
 ## Commands
 
