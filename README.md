@@ -37,5 +37,5 @@ A **WINDOWS ONLY** shell that plays [AWS Polly](https://aws.amazon.com/polly/)/[
   - Search for voices that match argument
   - If no arguments is provided list all voices
 - `set {arg}`
-  - Sets the voice to closes match
+  - Sets the voice to closest match
   - If no argument is provided load the first voice in voices.json
