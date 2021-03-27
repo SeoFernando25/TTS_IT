@@ -45,12 +45,7 @@ class ClientShell(cmd.Cmd):
         'Do clean up and exit'
         self.sp.stop_sound()
         return True
-
-    def do_clear(self, arg):
-        'Do clean up and exit'
-        self.sp.stop_sound()
-        return True
-
+                  
     def do_set(self, voice):
         'Changes the current voice'
         self.tts.set_voice(voice)
