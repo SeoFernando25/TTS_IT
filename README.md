@@ -4,10 +4,10 @@ A **WINDOWS ONLY** shell that plays [AWS Polly](https://aws.amazon.com/polly/)/[
 
 ## Requirements
 
-- [Soundpad](https://leppsoft.com/soundpad/en/) (Either steam version or DRM-Free should)
-- An amazon AWS account
+- [Soundpad](https://leppsoft.com/soundpad/en/) (Either steam version or DRM-Free should work)
+- [An Amazon AWS account](http://aws.amazon.com/free)
 - [Python 3](https://www.python.org/downloads/)
-- `pip install boto3`
+- [Boto3](https://pypi.org/project/boto3/)
 
 ## How to use
 
